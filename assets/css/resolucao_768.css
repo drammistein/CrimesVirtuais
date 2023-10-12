@@ -1,0 +1,59 @@
+@media (max-width: 979px) {
+
+    #banner {
+        height:auto;
+    }
+    .banner_headline {
+        display: flex;
+        padding: 70px 245px 20px 0px;
+    }
+    .banner_headline h1 {
+        font-size: 38px;
+    }
+    .banner_headline h2 {
+        font-size: 17.5px;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #geral section {
+        padding: 20px;
+    }
+    #geral aside {
+        padding: 20px;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+    
+    header {
+        height: auto;
+    }
+    
+   
+
+    .banner_headline{
+        display: inline-flex;
+        justify-content: center;
+        padding-left: 250px;
+    }
+
+    .footer_area {
+        display: none;
+    }
+}
