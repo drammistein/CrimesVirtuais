@@ -34,17 +34,19 @@ body {
 .title {
     font-size: 16px;
     font-weight: bold;
-    padding: 10px 0px 10px 0px;    
+    padding: 10px 0px 10px 0px;  
+    color: #000;  
 }
 .descricao {
     font-size: 14px;
     text-align: justify;
+    color: #5c5c5c;
 }
 ul {
     list-style: none;
     }
 li {
-    color: #FFF;
+    color: #5c5c5c;
 }
 span {
     color: #000;;
@@ -58,9 +60,9 @@ span {
     margin: auto;
 }
 .img {
-    padding-top: 50px;
+    padding: 40px 0px 40px 0px;
     width: 280px;
 }
 strong {
-    color: #4c4c4c;
+    color: #000;
 }
