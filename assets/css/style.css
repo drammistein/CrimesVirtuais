@@ -282,6 +282,7 @@ footer {
 .footer_menu {
     display: flex;
     /*flex: 1;*/
+    width: 450px;
 }
 .fm_1 {
     flex: 1;
@@ -302,18 +303,27 @@ footer {
 /**************************************************/
 .footer_area {
     display: flex;    
-   
 }
 .flexColumn {
     display:flex;
     flex-direction: column;
 } 
+.sobre_equipe {
+    padding-top: 8px;
+    font-size: 12px;
+}
 /*Área de créditos*/
 .footer_areaitem_description, .footer_areaitem_credits {
     color: #ffffff;
 }
 .footer_areaitem_credits {
 
+}
+.credits {
+    font-size: 12px;
+}
+.end_email {
+    font-size: 12px;
 }
 .footer_areaitem_credits .widget_body {
     flex-wrap: wrap;
@@ -324,6 +334,7 @@ footer {
 
 footer .widget_title_text {
     color: #ffffff;
+    font-size: 16px;
 }
 footer .news_title {
     padding-left: 20px;
