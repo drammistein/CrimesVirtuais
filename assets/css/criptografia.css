@@ -1,0 +1,66 @@
+@font-face {
+    font-family: fontMarc;
+    src: url(../fonts/Allura.ttf)
+  }
+  @font-face {
+      font-family: fontMenu;
+      src: url(../fonts/bubblegum-sans-regular.otf);
+  }
+  /***********************************/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}  
+body {
+    margin: 0;
+    padding: 0; 
+    background-image: linear-gradient(
+        to right,#7092bf,#b9d9f2 );
+}
+
+/*************************************/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 890px;
+    padding-top: 50px;
+    line-height: 1.2rem;
+}
+.geral {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;    
+}
+.descricao {
+    font-size: 14px;
+    text-align: justify;
+}
+ul {
+    list-style: none;
+    }
+li {
+    color: #FFF;
+}
+span {
+    color: #000;;
+}
+.video {
+    padding: 50px 50px;
+    margin: auto;
+}
+
+.div_img {
+    margin: auto;
+}
+.img {
+    padding-top: 50px;
+    width: 280px;
+}
+strong {
+    color: #4c4c4c;
+}
