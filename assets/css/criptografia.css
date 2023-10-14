@@ -52,8 +52,9 @@ span {
     color: #000;;
 }
 .video {
-    padding: 50px 50px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
 }
 
 .div_img {
