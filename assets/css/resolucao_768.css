@@ -20,6 +20,7 @@
     .container {
         flex-direction: column;
     }
+
     #geral section {
         padding: 20px;
     }
@@ -27,16 +28,20 @@
         padding: 20px;
     }
     .footer_menu {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
+  
     .footer_area {
-        flex-direction: column;
-        padding: 20px;
+        width: 80%;
+        padding: 0px;
     }
     .footer_copy {
         padding-left: 20px;
     }
-
+    .footer_areaitem_description {
+        padding-right: 20px;
+    }
     header .container {
         flex-direction: row;
     }
@@ -45,15 +50,26 @@
         height: auto;
     }
     
-   
-
+    aside {
+        width: 100%;
+        margin-top: -70px;
+        margin-left: 0px;
+    }
+    .aside_container {
+        flex-wrap: nowrap;
+    }
+    .aside_container div {
+        width: 95%;
+        height: 230px;
+    }
+    .aside_malwares {
+        margin-top: 970px;
+    }
     .banner_headline{
         display: inline-flex;
         justify-content: center;
         padding-left: 250px;
     }
-
-    .footer_area {
-        display: none;
-    }
+   
+       
 }

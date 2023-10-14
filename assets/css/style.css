@@ -282,7 +282,7 @@ footer {
 .footer_menu {
     display: flex;
     /*flex: 1;*/
-    width: 450px;
+    width: 100%;
 }
 .fm_1 {
     flex: 1;
