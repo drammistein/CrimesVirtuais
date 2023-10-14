@@ -64,6 +64,9 @@ span {
     padding: 40px 0px 40px 0px;
     width: 380px;
 }
+.img_malware {
+    width: 100%;
+}
 strong {
     color: #000;
 }

@@ -9,5 +9,8 @@
     iframe {
         height: 250px;
     }
+    .img_malware {
+        width: 100%;
+    }
 
 }
