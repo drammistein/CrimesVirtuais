@@ -3,9 +3,13 @@
     #banner {
         height:auto;
     }
+    .banner_top {
+        margin-left: -240px;
+
+    }
     .banner_headline {
-        display: flex;
-        padding: 70px 245px 20px 0px;
+        padding-top: 70px; 
+        width: 100%;   
     }
     .banner_headline h1 {
         font-size: 38px;
@@ -63,13 +67,17 @@
         height: 230px;
     }
     .aside_malwares {
-        margin-top: 970px;
+        margin-top: 660px;
     }
     .banner_headline{
         display: inline-flex;
         justify-content: center;
         padding-left: 250px;
     }
+    .credits {
+        font-size: 10px;
+    }
+    
    
        
 }

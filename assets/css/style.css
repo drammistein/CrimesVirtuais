@@ -75,13 +75,20 @@ nav .active{
 .column {
     flex-direction: column;
 }
+.banner_top {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 .banner_headline {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center ;
     font-weight: bold;
+    padding-top: 180px;
 }
 .banner_headline h1 {
     color:  #ffffff;
