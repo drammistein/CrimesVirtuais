@@ -120,7 +120,10 @@ nav .active{
     flex: 1;
     color:  #131d20;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 0px 3px 20px 0px;
+    box-shadow: 0px 0px 20px rgba(112, 146, 191, 0.8);
+    transition: all 0.3s ease-out;
+    border-radius: 4px;
 }
 .banner1 {
     background-color: #f0ddb6;
