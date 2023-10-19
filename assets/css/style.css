@@ -17,13 +17,15 @@ body {
 header {
     padding: 10px 0 10px 0;
     background: #56a3e0;
+    display: flex;
+    width: 100%;
 }
 /*************************************/
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 990px;
+    width: 80%;
 }
 .cont-menu {
     display: flex;
