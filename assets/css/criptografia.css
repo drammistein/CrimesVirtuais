@@ -96,3 +96,107 @@ span {
 strong {
     color: #000;
 }
+
+footer {
+    background-image: linear-gradient(
+        to bottom, #465c79, #050505);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    /*flex: 1;*/
+    width: 100%;
+}
+.fm_1 {
+    flex: 1;
+    color: #ffffff;
+}
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/**************************************************/
+.footer_area {
+    display: flex;    
+}
+.flexColumn {
+    display:flex;
+    flex-direction: column;
+} 
+.sobre_equipe {
+    padding-top: 8px;
+    font-size: 12px;
+}
+/*Área de créditos*/
+.footer_areaitem_description, .footer_areaitem_credits {
+    color: #ffffff;
+}
+.footer_areaitem_description {
+    padding-right: 30px;
+}
+.credits {
+    font-size: 12px;
+}
+.end_email {
+    font-size: 12px;
+}
+.footer_areaitem_credits .widget_body {
+    flex-wrap: wrap;
+}
+.widget_body span { /*créditos foto banner*/
+    padding-bottom: 15px;
+}
+
+footer .widget_title_text {
+    color: #ffffff;
+    font-size: 16px;
+}
+footer .news_title {
+    padding-left: 20px;
+}
+footer .news_title h1{
+    font-size: 22px;
+}
+footer .news_title h2 {
+    font-size: 12px;
+    padding-top: 10px;
+    margin-right: 1px;
+    flex-wrap: column wrap;
+    justify-content: flex-end;
+}
+footer p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+footer .widget_body, .address {
+    display: flex;
+}
+
+footer .addres {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 12px;
+    line-height: 17px;/*espaçameto entre linhas*/
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer_copy {
+    border-top: 2px solid #615e5e;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
