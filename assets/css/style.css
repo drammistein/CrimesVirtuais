@@ -158,12 +158,16 @@ li a:hover {
 }
 .banner_options a {
     display: inline-block;
-    border: 1px solid #ffffff;
-    padding: 5px;
+    border: 1px solid #eee;
+    padding: 3px;
     color:  #131d20;
-    font-size: 13px;
-    text-decoration: none;
+    font-size: 11px;
 }
+.banner_options a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
 /*******************************************/
 #geral {
     display: flex;
