@@ -20,16 +20,12 @@ header {
     width: 100%;
 }
 /*************************************/
-/*section {
-    background-image: linear-gradient(
-        to bottom,#7092bf,#9ad9ea ,#b9d9f2 );
-}*/
-
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 80%;     
+
 }
 .cont-menu {
     display: flex;
@@ -105,23 +101,22 @@ nav .active{
 }
 /*-Aqui vamos configurar as cores no Ambiente Light e Dark*/
 .default.light {
-    background-color: #f7f7f7;
+    //background-color: #f7f7f7;     
+    background: #800080;
+
 }
 .default.light .section-title,
 .default.light .section-body {
-    color: #000;
+    color: #fff;
 }
 /*--------------------------------*/
-.default.dark {
-    background-color: #000;
-}
+
 .default.dark .section-title,
 .default.dark .section-body {
     color: #fff;
 }
 /*--------------------------------*/
 
-/*------------------------------*/
 .section-projetos {
     display: flex;
     flex-direction: column;
