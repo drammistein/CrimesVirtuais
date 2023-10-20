@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    /*Todo o conteúdo que ultrapassar a horizontal
+      ele vai ser iguinorado */
+    overflow-x: hidden;  
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    padding: 10px 0 10px 0;
+    background: #56a3e0;
+    display: flex;
+    width: 100%;
+}
+/*************************************/
+section {
+    background-image: linear-gradient(
+        to bottom,#7092bf,#9ad9ea ,#b9d9f2 );
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.cont-menu {
+    display: flex;
+    align-items: center;
+}
+/*************************************/
+#imglogo {
+    width: 56px;
+    border-radius: 50%;
+}
+
+/*----------------------------*/
+.menu {
+    display: flex;
+    margin-right: 0px;
+}
+ul {
+    list-style: none;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex; 
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    //color: #131d20;
+    color: #fff;
+    font-weight: bold;
+}
+li a:hover {
+    color:purple;
+    text-decoration: none;
+}
+nav .active{
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/*---------------------------*/
+
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section-title, 
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title {
+    font-size: 20px;
+    
+}
+.default .section-desc {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.default .section-body {
+    max-width: 1140px;
+    margin:auto; 
+}
+/*-Aqui vamos configurar as cores no Ambiente Light e Dark*/
+.default.light {
+    background-color: #f7f7f7;
+}
+.default.light .section-title,
+.default.light .section-body {
+    color: #000;
+}
+/*--------------------------------*/
+.default.dark {
+    background-color: #000;
+}
+.default.dark .section-title,
+.default.dark .section-body {
+    color: #fff;
+}
+/*--------------------------------*/
+
+/*------------------------------*/
+.section-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-projetos--filters {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.section-projetos--filters ul,
+.section-projetos--filters li {
+    list-style: none;
+}
+.section-projetos--filters li {
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    color: #555;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+
+.section-projetos--filters li:first-child {
+    border-left: 0px;
+}
+/*----------------------------------------*/
+.section-projeto--fotos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projeto--foto {
+    width: 280px;
+}
+.section-projeto--fotoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-projeto--fotoarea img {
+    width: inherit; /*vai herdar o tamanho do item anterior*/
+    height: inherit;
+}
+.section-projeto--fotoinfo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.section-projeto--fotoinfo h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-projeto--fotoarea:hover .section-projeto--fotoinfo {
+    display: flex;
+    width: 260px;
+    height: 160px;
+}
+/*----------------------------------------*/
+
+/*-------------------------------------*/
+
+footer {
+    background-image: linear-gradient(
+        to bottom, #465c79, #050505);
+    display: flex;
+    justify-content: center;
+}
+.footer_menu {
+    display: flex;
+    /*flex: 1;*/
+    width: 100%;
+}
+.fm_1 {
+    flex: 1;
+    color: #ffffff;
+}
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/**************************************************/
+.footer_area {
+    display: flex;    
+}
+.flexColumn {
+    display:flex;
+    flex-direction: column;
+} 
+.sobre_equipe {
+    padding-top: 8px;
+    font-size: 12px;
+}
+/*Área de créditos*/
+.footer_areaitem_description, .footer_areaitem_credits {
+    color: #ffffff;
+}
+.footer_areaitem_description {
+    padding-right: 30px;
+}
+.credits {
+    font-size: 12px;
+}
+.end_email {
+    font-size: 12px;
+}
+.footer_areaitem_credits .widget_body {
+    flex-wrap: wrap;
+}
+.widget_body span { /*créditos foto banner*/
+    padding-bottom: 15px;
+}
+
+footer .widget_title_text {
+    color: #ffffff;
+    font-size: 16px;
+}
+footer .news_title {
+    padding-left: 20px;
+}
+footer .news_title h1{
+    font-size: 22px;
+}
+footer .news_title h2 {
+    font-size: 12px;
+    padding-top: 10px;
+    margin-right: 1px;
+    flex-wrap: column wrap;
+    justify-content: flex-end;
+}
+footer p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+footer .widget_body, .address {
+    display: flex;
+}
+
+footer .addres {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 12px;
+    line-height: 17px;/*espaçameto entre linhas*/
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer_copy {
+    border-top: 2px solid #615e5e;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+/****************************************/

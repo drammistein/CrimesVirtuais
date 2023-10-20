@@ -24,6 +24,10 @@
     .container {
         flex-direction: column;
     }
+    
+    .section-projeto--fotoarea .img_box {
+        width: 100%;
+    }
 
     #geral section {
         padding: 20px;
@@ -55,6 +59,7 @@
         height: auto;
     }
     
+
     aside {
         width: 100%;
         margin-top: -70px;

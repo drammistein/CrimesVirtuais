@@ -52,18 +52,26 @@ nav ul {
     display: flex; 
 }
 nav a {
-    display: block;
-    padding: 15px;
+    display: flex;
     text-decoration: none;
     text-transform: uppercase;
-    color: #131d20;
+    //color: #131d20;
+    color: #fff;
     font-weight: bold;
 }
+ nav a .artigo {
+    padding-left: 20px;
+ }
 
 nav .active{
     color: white;
     font-weight: bold;
-    padding-left: 20px;
+    padding: 0px 20px;
+}
+
+li a:hover {
+    color: purple;
+    text-decoration: none;
 }
 /************************************/
 #banner {
