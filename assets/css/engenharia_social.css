@@ -25,7 +25,7 @@ header {
 }
 /*************************************/
 .container_header {
-    width:80%;
+    width:100%;
 }
 .cont-menu {
     display: flex;
@@ -42,7 +42,7 @@ a {
     font-weight:bold;
 }
 nav {
-    margin-left: -20px;
+    margin-left: -10px;
 }
 
 /*************************************/

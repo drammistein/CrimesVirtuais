@@ -1,5 +1,8 @@
 @media (max-width: 979px) {
 
+    .cont-menu {
+        padding-left: 20px;
+    }
     .geral {
         width: 90%;
     }
