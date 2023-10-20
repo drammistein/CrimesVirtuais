@@ -191,7 +191,8 @@ li a:hover {
     margin-bottom: 20px;
 }
 .widget_title_text, .aside_malwares {
-    color: #000000;
+    //color: #000000;
+    color:#fff;
     font-size: 21px;
     font-weight: bold;
 }
@@ -240,11 +241,13 @@ article .news_thumbmail img {
 article .news_title {
     margin-top: 25px;
     margin-bottom: 25px;
-    color: #000000;
+    //color: #000000;
+    color: #fff;
     font-size: 23px;
 }
 article .news_resume {
-    color: #5c5c5c;
+    //color: #5c5c5c;
+    color: #ccc;
     line-height: 20px;
     font-size: 14px;
     margin-bottom: 30px;
@@ -269,10 +272,14 @@ aside .widget_aside {
     list-style: none;
 }
 .li_aside a {
-    color: #5c5c5c;
+    //color: #5c5c5c;
+    color: #FFF;
     line-height: 5px;
     font-size: 14px;
     margin-bottom: 30px;
+}
+.li_aside a:hover {
+    color: #ddd;
 }
 
 .aside_container {
