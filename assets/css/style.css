@@ -172,8 +172,9 @@ li a:hover {
 #geral {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(
-        to bottom,#7092bf,#9ad9ea ,#b9d9f2 );
+    //background-image: linear-gradient(
+     //   to bottom,#7092bf,#9ad9ea ,#b9d9f2 );
+     background: purple;
 }
 #geral section {
     flex: 2;
