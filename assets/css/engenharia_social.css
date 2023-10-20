@@ -13,8 +13,9 @@
 body {
     margin: 0;
     padding: 0; 
-    background-image: linear-gradient(
-        to right,#7092bf,#b9d9f2 );
+    /*background-image: linear-gradient(
+        to right,#7092bf,#b9d9f2 );*/
+    background: #800080;    
 }
 
 header {
@@ -63,12 +64,13 @@ nav {
     font-size: 16px;
     font-weight: bold;
     padding: 10px 0px 10px 0px; 
-    color: #000;   
+    color: #fff;   
 }
 .descricao {
     font-size: 14px;
     text-align: justify;
-    color: #5c5c5c;
+    //color: #5c5c5c;
+    color:#ddd;
 }
 ul {
     list-style: none;

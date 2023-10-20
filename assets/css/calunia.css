@@ -13,8 +13,9 @@
 body {
     margin: 0;
     padding: 0; 
-    background-image: linear-gradient(
-        to right,#7092bf,#b9d9f2 );
+    /*background-image: linear-gradient(
+        to right,#7092bf,#b9d9f2 );*/
+    background: #800080;
 }
 
 header {
@@ -65,18 +66,20 @@ nav {
     font-size: 18px;
     font-weight: bold;
     padding: 10px 0px 3px 0px;   
-    color: #000; 
+    color: #fff; 
 }
 .sub_title {
     padding-top: 10px;
     font-size: 14px; 
-    color: #000;
+    color: #ddd;
+    font-weight: bold;
 }
 .descricao {
     padding-top: 25px;
     font-size: 14px;
     text-align: justify;
-    color: #5c5c5c;
+    //color: #5c5c5c;
+    color: #ccc;
 }
 .fim {
     padding-bottom: 26px;
@@ -89,14 +92,15 @@ nav {
     font-style: italic;
     font-size: 12px;
     box-shadow: 0px 0px 20px rgba(112, 146, 191, 0.8);
-
+    color: #ccc;
 }
 
 ul {
     list-style: none;
     }
 li {
-    color: #5c5c5c;
+    //color: #5c5c5c;
+    color: #ddd;
 }
 ol {
     list-style: disc;
