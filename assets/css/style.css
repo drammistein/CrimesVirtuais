@@ -256,6 +256,13 @@ article .news_resume {
     margin-bottom: 30px;
     text-align: justify;
 }
+
+.article_video {
+    padding-bottom: 50px;
+}
+video {
+    width: 100%;
+}
 /***************************************/
 aside .widget_aside {
     height: 550px;

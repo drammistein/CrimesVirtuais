@@ -1,7 +1,5 @@
 @media (max-width: 979px) {
 
-   
-
     #banner {
         height:auto;
     }
@@ -32,14 +30,17 @@
     }
 
     #geral section {
-        padding-left: 15px;
+        padding-left: 20px;
         paddin-right: 0px;
     }
     #geral aside {
         padding-top: 20px;
-        padding-bottom: 890px;
+        padding-bottom: 860px;
     }
     
+    .article_video {
+
+    }
     .footer_menu {
         display: flex;
         flex-direction: row;
