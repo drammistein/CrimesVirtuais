@@ -177,7 +177,7 @@ li a:hover {
      //   to bottom,#7092bf,#9ad9ea ,#b9d9f2 );
      background: purple;
 }
-#geral section {
+section {
     flex: 2;
 }
 #geral aside {

@@ -32,10 +32,10 @@
     }
 
     #geral section {
-        padding: 20px;
+        padding-left: 10px;
     }
     #geral aside {
-        padding: 20px;
+        padding-top: 20px;
     }
     .footer_menu {
         display: flex;
