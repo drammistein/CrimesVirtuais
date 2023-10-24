@@ -26,22 +26,28 @@
     .container {
         flex-direction: column;
     }
-    
+
     .section-projeto--fotoarea .img_box {
         width: 100%;
     }
 
     #geral section {
         padding-left: 10px;
+        paddin-right: 0px;
     }
     #geral aside {
         padding-top: 20px;
+        padding-bottom: 1000px;
     }
+    
     .footer_menu {
         display: flex;
         flex-direction: row;
     }
    
+    .aside_malwares {
+        display: none;
+    }
     .footer_area {
         width:100%;
         padding: 0px;
@@ -64,8 +70,8 @@
 
     aside {
         width: 100%;
-        margin-top: -70px;
-        margin-left: 0px;
+        max-height: ;
+        margin-top: -50px;
     }
     .aside_container {
         flex-wrap: nowrap;
@@ -74,9 +80,11 @@
         width: 95%;
         height: 230px;
     }
+    /*
     .aside_malwares {
         margin-top: 660px;
-    }
+    }*/
+   
     .banner_headline{
         display: inline-flex;
         justify-content: center;
