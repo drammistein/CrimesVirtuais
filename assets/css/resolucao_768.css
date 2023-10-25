@@ -28,7 +28,34 @@
     .section-projeto--fotoarea .img_box {
         width: 100%;
     }
+    .widget_title_text {
+        width: 100%;
+    }
+    .widget_title {
+        width: 96%;
+    }
+    .widget_body {
+        width: 96%;
+    }
+    div .widget {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
+    video {
+        width: 100%;
+    }
+    .news_thumbmail {
+        width: 100%;
 
+    }
+    .article_video {
+        width: 96%;
+    }
+    #geral {
+        width: 100%;
+    }
     #geral section {
         padding-left: 20px;
         paddin-right: 0px;
