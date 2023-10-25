@@ -105,6 +105,7 @@ figcaption {
     margin: auto;
     font-size: 11px;
     width: 80%;
+    color: #ccc;
 }
 img {
     display: flex;
