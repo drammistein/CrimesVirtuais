@@ -37,11 +37,22 @@
     .widget_body {
         width: 96%;
     }
+    .second_section {
+        width: 99%;
+    }
+
+    .widget_aside {
+        margin-bottom: -200px;
+    }
+    .aside_video {
+        padding-left: 20px;
+    }
     div .widget {
         width: 100%;
     }
     article {
-        width: 100%;
+        margin-left: -30px;
+        width: 98%;
     }
     video {
         width: 100%;
