@@ -40,16 +40,14 @@
     .widget_body {
         width: 96%;
     }
-    .second_section {
-        width: 99%;
-    }
-
+    
     .widget_aside {
-        margin-bottom: -200px;
+       margin-bottom: -200px;
     }
     .aside_video {
         padding-left: 20px;
     }
+    
     div .widget {
         width: 100%;
     }
@@ -121,10 +119,10 @@
         width: 95%;
         height: 230px;
     }
-    /*
+    
     .aside_malwares {
-        margin-top: 660px;
-    }*/
+
+    }
    
     .banner_headline{
         display: inline-flex;
