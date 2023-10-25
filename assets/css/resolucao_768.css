@@ -34,6 +34,9 @@
     .widget_title {
         width: 96%;
     }
+    .first {
+        margin-left: -25px;
+    }
     .widget_body {
         width: 96%;
     }
