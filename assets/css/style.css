@@ -175,7 +175,8 @@ li a:hover {
     justify-content: center;
     //background-image: linear-gradient(
      //   to bottom,#7092bf,#9ad9ea ,#b9d9f2 );
-     background: purple;
+     //background: purple;
+     background: #010101;
 }
 section {
     flex: 2;
