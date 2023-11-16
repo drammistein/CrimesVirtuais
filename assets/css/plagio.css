@@ -87,9 +87,10 @@ ul {
 li {
     //color: #5c5c5c;
     color: #ccc;
+    
 }
 span {
-    color: #000;;
+    color: #000;
 }
 .video {
     display: flex;
