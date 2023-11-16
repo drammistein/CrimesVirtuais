@@ -103,8 +103,8 @@ nav .active{
 /*-Aqui vamos configurar as cores no Ambiente Light e Dark*/
 .default.light {
     //background-color: #f7f7f7;     
-    background: #800080;
-
+    //background: #800080;
+    background: #010101;
 }
 .default.light .section-title,
 .default.light .section-body {
