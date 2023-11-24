@@ -25,14 +25,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;     
+    width: 90%;     
     margin: auto;
 
 }
 .cont-menu {
     display: flex;
     align-items: center;
-    //padding-left: 60px;
+    padding-left: 20px;
 
 }
 /*************************************/
