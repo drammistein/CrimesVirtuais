@@ -1,0 +1,9 @@
+.container {
+    margin: auto;
+    padding-top: 100px;
+}
+.LogoEquipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
