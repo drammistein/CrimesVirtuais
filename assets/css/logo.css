@@ -88,12 +88,12 @@ nav .active{
     align-items: center;
 }
 img {
-    width: 40%;
+    width: 60%;
 }
 
 section {
     display: flex;
-    height: 445px;
+    height: 450px;
 }
 
 footer {
