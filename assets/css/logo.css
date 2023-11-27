@@ -91,11 +91,15 @@ img {
     width: 40%;
 }
 
+section {
+    display: flex;
+    height: 650px;
+}
+
 footer {
     background-image: linear-gradient(
         to bottom, #465c79, #050505);
-    display: flex;
-    justify-content: center;
+    
 }
 .footer_menu {
     display: flex;
@@ -115,7 +119,7 @@ footer {
 
 /**************************************************/
 .footer_area {
-    display: flex;    
+    display: flex;   
 }
 .flexColumn {
     display:flex;
