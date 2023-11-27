@@ -119,6 +119,37 @@
     .footer_areaitem_description {
         padding-right: 10px;
     }
+    .sobre_equipe {
+        margin-left: -5px;
+    }
+    .sobre_equipe_title {
+        margin-left: -25px;
+    }
+    .sobre_equipe_bar {
+        margin-left: -10px;
+    }
+
+    .end {
+        margin-left: -8px;
+    }
+    .end_bar {
+        margin-left: 6px;
+    }
+
+    .addres {
+        margin-left: -20px;
+    }
+    .credit {
+        margin-left: -20px;
+    }
+    .credit_bar {
+        margin-left: -4px;
+    }
+    .credits {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
     header .container {
         flex-direction: row;
     }
@@ -149,9 +180,7 @@
         justify-content: center;
         padding-left: 250px;
     }
-    .credits {
-        font-size: 10px;
-    }
+   
     
    
        
