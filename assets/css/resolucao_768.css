@@ -28,8 +28,17 @@
     .section-projeto--fotoarea .img_box {
         width: 100%;
     }
+
+    .widget_title_bar {
+        margin-left: 15px;
+    }
+
     .widget_title_text {
         width: 100%;
+        padding-left: 15px;
+    }
+    .news_posted_at {
+        margin-left: 20px;
     }
     .widget_title {
         width: 96%;
@@ -60,10 +69,19 @@
     }
     .news_thumbmail {
         width: 100%;
-
+        padding-left: 25px;
+    }
+    .news_title {
+        padding-left: 20px;
+    }
+    .news_resume {
+        padding-left: 20px;
     }
     .article_video {
         width: 96%;
+    }
+    video {
+        padding-left: 28px;
     }
     #geral {
         width: 100%;
@@ -76,10 +94,12 @@
         padding-top: 20px;
         padding-bottom: 860px;
     }
-    
-    .article_video {
-
-    }
+   .video { 
+        margin-left:-20px;
+   }
+   .video_bar {
+        margin-left: -5px;
+   }
     .footer_menu {
         display: flex;
         flex-direction: row;
